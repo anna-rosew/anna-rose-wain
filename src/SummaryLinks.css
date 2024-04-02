@@ -1,0 +1,45 @@
+container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a.summary {
+  font-family: "komet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+a.summary:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.summary-links {
+  padding: 10px;
+}
+
+.summary-links h2 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  opacity: 80%;
+  margin-bottom: 2.5px;
+}
+
+@media (max-width: 960px) {
+  .summary-links {
+    padding: 5px;
+  }
+
+  .summary-links h2 {
+    margin: 0 auto;
+    padding: 1px;
+    font-size: 12px;
+  }
+
+  a.summary {
+    font-size: 12px;
+  }
+}

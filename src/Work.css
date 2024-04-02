@@ -1,0 +1,140 @@
+/* style.css */
+
+.container .custom-padding {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.custom-gap {
+  margin: 5px;
+}
+
+.work-section {
+  margin: 10px;
+}
+
+.work-example-card {
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 23px;
+}
+
+.project-1 {
+  background-image: url("./imgs/react-weather-app.png");
+}
+
+.project-2 {
+  background-image: url("./imgs/react-dictionary.png");
+}
+
+.project-3 {
+  background-image: url("./imgs/responsive-blender.png");
+}
+
+.project-4 {
+  background-image: url("./imgs/nam-joo-huh-portfolio.png");
+}
+
+.project-5 {
+  background-image: url("./imgs/world-clock-app.png");
+}
+
+/* Add class for two projects per row */
+.two-projects-per-row {
+  width: calc(50% - 10px); /* Set width to 50% minus gutter */
+}
+
+.project-caption {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.project-caption h3 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 26px;
+  margin: 0;
+  text-align: left;
+}
+
+.project-caption a {
+  color: black;
+}
+
+.project-caption a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.project-caption a:visited {
+  color: black;
+}
+
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 24%;
+}
+
+.project-caption button {
+  font-family: "komet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  border: 1px solid black;
+  margin: 5px 5px;
+  border-radius: 23px;
+  padding: 5px 10px;
+  text-align: left;
+  background-color: #e4ddec;
+}
+
+.project-caption button:hover {
+  cursor: default;
+}
+
+button.github-link {
+  color: white;
+  background-color: black;
+  border: 1px dashed black;
+}
+
+@media (max-width: 960px) {
+  .work-example-card {
+    height: 200px;
+  }
+
+  .project-caption {
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+
+  .project-caption h3 {
+    font-size: 20pt;
+  }
+}
+
+/* Additional CSS for two cards per row */
+.row [class^="col-"] {
+  padding: 0 5px; /* Adjust gutter as needed */
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* Adjust width for two projects per row */
+  .row .col-md-6 {
+    width: calc(50% - 10px); /* Set width to 50% minus gutter */
+    margin-bottom: 10px;
+  }
+}
