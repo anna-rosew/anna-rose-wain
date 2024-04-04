@@ -4,9 +4,9 @@ import "./SummaryLinks.css";
 
 export default function SummaryLinks() {
   return (
-    <div className="container" id="summary-full">
+    <div className="container">
       <div className="row justify-content-start left-align">
-        <div className="col-md-2">
+        <div className="col-sm-6 col-md">
           <div className="summary-links">
             <h2>Get in touch</h2>
             <a className="summary" href="https://github.com/anna-rosew">
@@ -14,7 +14,7 @@ export default function SummaryLinks() {
             </a>
           </div>
         </div>
-        <div className="col-md-2">
+        <div className="col-sm-6 col-md">
           <div className="summary-links">
             <h2>GitHub</h2>
             <a className="summary" href="https://github.com/anna-rosew">
@@ -22,7 +22,7 @@ export default function SummaryLinks() {
             </a>
           </div>
         </div>
-        <div className="col-md-2">
+        <div className="col-sm-6 col-md">
           <div className="summary-links">
             <h2>LinkedIn</h2>
             <a
@@ -33,7 +33,7 @@ export default function SummaryLinks() {
             </a>
           </div>
         </div>
-        <div className="col-md-2">
+        <div className="col-sm-6 col-md">
           <div className="summary-links">
             <h2>SheCodes</h2>
             <a
@@ -44,12 +44,11 @@ export default function SummaryLinks() {
             </a>
           </div>
         </div>
-        <div className="col-md-2">
+        <div className="col-sm-6 col-md">
           <div className="summary-links">
             <h2>CV</h2>
-
             <a className="summary" href="https://github.com/anna-rosew">
-              Online /{" "}
+              Online /
             </a>
             <span>
               <a className="summary" href="https://github.com/anna-rosew">
@@ -58,7 +57,7 @@ export default function SummaryLinks() {
             </span>
           </div>
         </div>
-        <div className="col-md-2">
+        <div className="col-sm-6 col-md">
           <div className="summary-links">
             <h2>Other work</h2>
             <a className="summary" href="https://github.com/anna-rosew">
