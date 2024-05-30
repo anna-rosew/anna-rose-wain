@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import "./Hero.css";
 import ContactButton from "./ContactButton.js";
-import Marquee from "react-fast-marquee";
 
 export default function Hero() {
   return (
@@ -29,15 +28,6 @@ export default function Hero() {
           the mountains or watching a good film. ☻
         </h2>
         <ContactButton />
-      </div>
-      <div className="crawler">
-        <Marquee>
-          {" "}
-          JavaScript | HTML & CSS | Vanilla.js | React.js | REST APIs |
-          Wireframing | UI/UX | Bootstrap | Responsive Web Design | Adobe
-          Creative Suite | Git | Version Control | Blender 3D | VR/AR
-          Development | C# | Three.js | Photoshop | p5.js | Yarn | NPM.js |
-        </Marquee>
       </div>
       <hr></hr>
     </div>
