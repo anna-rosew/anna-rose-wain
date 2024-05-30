@@ -22,23 +22,23 @@
 }
 
 .project-1 {
-  background-image: url("./imgs/react-weather-app.png");
+  background-image: url("../imgs/react-weather-app.png");
 }
 
 .project-2 {
-  background-image: url("./imgs/react-dictionary.png");
+  background-image: url("../imgs/react-dictionary.png");
 }
 
 .project-3 {
-  background-image: url("./imgs/responsive-blender.png");
+  background-image: url("../imgs/responsive-blender.png");
 }
 
 .project-4 {
-  background-image: url("./imgs/nam-joo-huh-portfolio.png");
+  background-image: url("../imgs/nam-joo-huh-portfolio.png");
 }
 
 .project-5 {
-  background-image: url("./imgs/world-clock-app.png");
+  background-image: url("../imgs/world-clock-app.png");
 }
 
 /* Add class for two projects per row */

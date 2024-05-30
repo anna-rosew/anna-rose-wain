@@ -1,16 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap");
 
 .App {
   margin: 0 auto;
 }
 
-container {
-  max-width: 1400px;
+main {
   margin: 0 auto;
+  padding: 0;
+}
+
+container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.details-container {
+  margin-left: 20px;
 }
 
 a :hover {
   text-decoration: underline;
+}
+
+h1 {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {

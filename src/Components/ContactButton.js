@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "../Styles/App.css";
 
 const ContactButton = () => {
   const copyEmail = () => {
@@ -24,7 +24,7 @@ const ContactButton = () => {
 
   return (
     <button className="contact" id="copyEmailButton" onClick={copyEmail}>
-      <a href="mailto:annarosewain9@gmail.com">CONTACT ME</a>
+      CONTACT ME
     </button>
   );
 };

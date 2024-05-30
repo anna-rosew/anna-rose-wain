@@ -6,7 +6,8 @@ button.contact {
   font-size: 12px;
   display: block;
   border: 1px solid white;
-  margin: 5px auto;
+  margin-left: 5px;
+  margin-top: 20px;
   padding: 5px 10px;
   text-align: left;
   color: pink;
@@ -16,6 +17,10 @@ button.contact {
 .contact a {
   color: pink;
   text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .hero {
@@ -47,6 +52,10 @@ a.loughborough {
   text-decoration: none;
 }
 
+a.loughborough:hover {
+  text-decoration: underline;
+}
+
 .crawler {
   padding-top: 5px;
   font-size: 13px;
@@ -57,6 +66,69 @@ a.loughborough {
 
 hr {
   margin: 0;
+}
+
+.containerSummary {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+a.summary {
+  font-family: "komet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-decoration: underline;
+  color: white;
+}
+
+a.summary:visited {
+  color: white;
+}
+
+a.summary:hover {
+  color: pink;
+}
+
+.summary-links {
+  padding: 10px;
+  color: white;
+}
+
+a[href^="mailto:"] {
+  color: white;
+}
+
+.summary-links h2 {
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  opacity: 80%;
+  margin-bottom: 2.5px;
+}
+
+@media (max-width: 960px) {
+  .summary-links {
+    padding: 5px;
+  }
+
+  .summary-links h2 {
+    margin: 0 auto;
+    padding: 1px;
+    font-size: 12px;
+  }
+
+  a.summary {
+    font-size: 12px;
+  }
+
+  /* Adjusting columns for small screens */
+  .col-sm-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 960px) {

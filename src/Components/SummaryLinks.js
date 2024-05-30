@@ -1,10 +1,10 @@
 import React from "react";
-import "./App.css";
-import "./SummaryLinks.css";
+import "../Styles/App.css";
+import "../Styles/SummaryLinks.css";
 
 export default function SummaryLinks() {
   return (
-    <div className="container">
+    <div className="containerSummary">
       <div className="row justify-content-start left-align">
         <div className="col-sm-6 col-md">
           <div className="summary-links">

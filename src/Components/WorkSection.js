@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css";
-import ProjectCard from "./ProjectCard";
-import "./Work.css";
+import "../Styles/App.css";
+import "../Styles/Work.css";
+import ProjectCard from "../Components/ProjectCard";
 
 const WorkSection = () => {
   const projects = [
@@ -13,7 +13,7 @@ const WorkSection = () => {
       repoLink: "https://github.com/anna-rosew/weather-app-final",
       liveLink: "https://what-should-i-wear-outside.netlify.app/",
       date: "Jan 2024",
-      image: require("./imgs/react-weather-app.png"),
+      image: require("../imgs/react-weather-app.png"),
     },
 
     {
@@ -24,7 +24,7 @@ const WorkSection = () => {
       repoLink: "https://github.com/anna-rosew/react-dictionary-app",
       liveLink: "https://lexilore-react.netlify.app/",
       date: "Feb 2024",
-      image: require("./imgs/react-dictionary.png"),
+      image: require("../imgs/react-dictionary.png"),
     },
 
     {
@@ -35,7 +35,7 @@ const WorkSection = () => {
       repoLink: "https://github.com/anna-rosew/Blender-Art",
       liveLink: "https://blender-art.netlify.app/",
       date: "Nov 2023",
-      image: require("./imgs/responsive-blender.png"),
+      image: require("../imgs/responsive-blender.png"),
     },
     {
       title: "Nam Joo Huh's Portfolio",
@@ -45,7 +45,7 @@ const WorkSection = () => {
       repoLink: "https://github.com/anna-rosew/Nam_Portfolio",
       liveLink: "https://dapper-raindrop-f7c20e.netlify.app/",
       date: "Sep 2023",
-      image: require("./imgs/nam-joo-huh-portfolio.png"),
+      image: require("../imgs/nam-joo-huh-portfolio.png"),
     },
     {
       title: "World Clock App",
@@ -55,7 +55,7 @@ const WorkSection = () => {
       repoLink: "https://github.com/anna-rosew/world-clock",
       liveLink: "https://time-track-world.netlify.app/",
       date: "April 2023",
-      image: require("./imgs/world-clock-app.png"),
+      image: require("../imgs/world-clock-app.png"),
     },
   ];
 

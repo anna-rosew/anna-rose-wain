@@ -1,13 +1,13 @@
 import React from "react";
-import "./App.css";
-import "./Footer.css";
+import "../Styles/App.css";
+import "../Styles/Footer.css";
 
 export default function Footer() {
   return (
     <footer>
       <div className="footer">
         <h4>
-          This site was coded by Anna-Rose Wain and is{" "}
+          This site was coded by <strong>Anna-Rose Wain</strong> and is{" "}
           <a
             href="https://github.com/anna-rosew/annarosewain_portfolio"
             target="_blank"

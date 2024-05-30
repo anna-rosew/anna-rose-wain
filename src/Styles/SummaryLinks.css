@@ -1,6 +1,7 @@
-.container {
+.containerSummary {
   max-width: 1400px;
   margin: 0 auto;
+  background-color: black;
 }
 
 a.summary {
@@ -12,15 +13,17 @@ a.summary {
 }
 
 a.summary:visited {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
 .summary-links {
   padding: 10px;
+  color: white;
 }
 
 .summary-links h2 {
+  color: white;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;

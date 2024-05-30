@@ -1,16 +1,16 @@
-import "./App.css";
 import Marquee from "react-fast-marquee";
-import Header from "./Header";
-import Hero from "./Hero";
-import SummaryLinks from "./SummaryLinks";
-import Work from "./WorkSection";
-import Footer from "./Footer.js";
+import "../src/Styles/index.css";
+import "./Styles/App.css";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import Work from "./Components/WorkSection";
+import Footer from "./Components/Footer.js";
 
 function App() {
   return (
     <div className="App">
       <main>
-        <div className="container">
+        <div className="container-body">
           <div className="crawler">
             <Marquee>
               {" "}
@@ -21,7 +21,6 @@ function App() {
             </Marquee>
           </div>
           <Header />
-          <SummaryLinks />
           <Work />
           <Hero />
         </div>
