@@ -12,6 +12,7 @@ button.contact {
   text-align: left;
   color: pink;
   background-color: black;
+  cursor: pointer;
 }
 
 .contact a {
