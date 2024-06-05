@@ -1,3 +1,24 @@
-.block {
-  display: block;
+.Header {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+}
+
+.about-link {
+  font-size: 25px;
+  margin: 40px 30px 20px 10px;
+  text-align: right;
+  opacity: 80%;
+}
+.about-anchor:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+  .logo {
+    margin-bottom: 10px;
+  }
 }

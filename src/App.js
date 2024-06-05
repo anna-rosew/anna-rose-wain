@@ -9,10 +9,13 @@ import Work from "./Components/WorkSection";
 import Footer from "./Components/Footer.js";
 
 //Upload correct and complete projects
-//Blender, AI, Cocktails, Weather, World clock
-//Logo for corner
+//Blender, AI, Cocktails, Weather, World clock, Rose Long coming soon (caption for cursor)
 //Animations for loading
 //Cursors different for each project
+//Dark and light mode
+//Get in touch button near top
+
+//Inspired: https://p5aholic.me/contact/
 
 function App() {
   return (
