@@ -3,6 +3,8 @@ import "../Styles/App.css";
 import "../Styles/Hero.css";
 import ContactButton from "../Components/ContactButton";
 
+//text-effect spotlight:https://codepen.io/Thrin/pen/bGKqxzW https://codepen.io/amatyulkov/pen/MWQyPXp
+
 export default function Hero() {
   return (
     <div className="hero-container" id="about">
