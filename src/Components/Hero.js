@@ -5,8 +5,8 @@ import ContactButton from "../Components/ContactButton";
 
 export default function Hero() {
   return (
-    <div className="bio">
-      <div className="bio-hero">
+    <div className="hero-container" id="about">
+      <div className="hero">
         <h2 className="bio">
           <strong>
             Anna-Rose Wain is a front-end developer and digital artist based in
