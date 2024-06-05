@@ -23,9 +23,12 @@ a :hover {
 }
 
 h1 {
-  font-family: "Cactus Classical Serif", serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
+  font-size: 30px;
   font-style: normal;
+  margin-left: 20px;
+  margin-bottom: 1px;
 }
 
 h2 {
@@ -52,4 +55,8 @@ p {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+br {
+  margin: 1em;
 }

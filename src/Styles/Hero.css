@@ -24,7 +24,7 @@ strong {
   font-weight: 700;
 }
 
-.hero {
+.bio-hero {
   color: white;
   font-family: "balto", sans-serif;
   background-color: black;
@@ -33,7 +33,7 @@ strong {
   text-align: left;
 }
 
-.bio {
+.text {
   width: 70%;
   font-weight: 400;
   font-style: normal;
