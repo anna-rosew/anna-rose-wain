@@ -20,8 +20,11 @@
   border: 2px solid black;
   border-radius: 23px;
 }
-
 .project-1 {
+  background-image: url("../imgs/blender-rookie.png");
+}
+
+.project-2 {
   background-image: url("../imgs/react-weather-app.png");
 }
 

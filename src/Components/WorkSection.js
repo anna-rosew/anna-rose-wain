@@ -18,7 +18,7 @@ const WorkSection = () => {
 
     {
       title: "Weather App",
-      className: "project-1",
+      className: "project-2",
       altText: "React Weather App",
       tags: ["App", "React.js", "API Integration"],
       repoLink: "https://github.com/anna-rosew/weather-app-final",
