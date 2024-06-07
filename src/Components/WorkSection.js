@@ -10,7 +10,7 @@ const WorkSection = () => {
       subtitle: "Complete Guide to Learning Blender",
       className: "project-1",
       altText: "Blender Rookie Web App",
-      tags: ["Website", "React.js", "API Integration"],
+      tags: ["Website", "React.js", "3D", "NPM"],
       repoLink: "https://github.com/anna-rosew/blender-rookie",
       liveLink: "https://blender-rookie.netlify.app",
       date: "Jun 2024",
