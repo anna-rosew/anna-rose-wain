@@ -9,7 +9,7 @@ import Work from "./Components/WorkSection";
 import Footer from "./Components/Footer.js";
 
 //Upload correct and complete projects
-//Blender, AI, Cocktails, Weather, World clock, Rose Long coming soon (caption for cursor)
+//Blender, AI Cocktails(responsive image), Weather, World clock, Rose Long coming soon (caption for cursor)
 //Animations for loading
 //Cursors different for each project
 //Dark and light mode

@@ -6,10 +6,11 @@ import ProjectCard from "../Components/ProjectCard";
 const WorkSection = () => {
   const projects = [
     {
-      title: "Blender Rookie Website",
+      title: "Blender Rookie",
+      subtitle: "Complete Guide to Learning Blender",
       className: "project-1",
       altText: "Blender Rookie Web App",
-      tags: ["App", "React.js", "API Integration"],
+      tags: ["Website", "React.js", "API Integration"],
       repoLink: "https://github.com/anna-rosew/blender-rookie",
       liveLink: "https://blender-rookie.netlify.app",
       date: "Jun 2024",
@@ -17,13 +18,26 @@ const WorkSection = () => {
     },
 
     {
-      title: "Weather App",
+      title: "Sip Synth",
+      subtitle: "AI Cocktail Recipe Generator",
       className: "project-2",
-      altText: "React Weather App",
-      tags: ["App", "React.js", "API Integration"],
+      altText: "Cocktail Recipe Generator",
+      tags: ["Web App", "UI/UX", "AI API"],
       repoLink: "https://github.com/anna-rosew/weather-app-final",
       liveLink: "https://what-should-i-wear-outside.netlify.app/",
-      date: "Jan 2024",
+      date: "May 2024",
+      image: require("../imgs/react-weather-app.png"),
+    },
+
+    {
+      title: "Weather Forecast App",
+      subtitle: "Providing local live weather updates",
+      className: "project-2",
+      altText: "Weather App",
+      tags: ["Web App", "UI/UX", "AI API"],
+      repoLink: "https://github.com/anna-rosew/weather-app-final",
+      liveLink: "https://what-should-i-wear-outside.netlify.app/",
+      date: "May 2024",
       image: require("../imgs/react-weather-app.png"),
     },
 

@@ -31,6 +31,7 @@ const ProjectCard = ({ projectInfo }) => {
         >
           <h3>{projectInfo.title}</h3>
         </a>
+        <h2>{projectInfo.subtitle}</h2>
         <br />
         <p>{projectInfo.date}</p>
       </div>

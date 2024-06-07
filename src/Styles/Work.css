@@ -28,7 +28,7 @@
   background-image: url("../imgs/react-weather-app.png");
 }
 
-.project-2 {
+.project-3 {
   background-image: url("../imgs/react-dictionary.png");
 }
 
@@ -52,6 +52,12 @@
 .project-caption {
   margin-left: 20px;
   margin-bottom: 30px;
+}
+
+.project-caption h2 {
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 5px;
 }
 
 .project-caption h3 {
