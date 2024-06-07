@@ -25,15 +25,11 @@
 }
 
 .project-2 {
+  background-image: url("../imgs/sip-synth.png");
+}
+
+.project-3 {
   background-image: url("../imgs/react-weather-app.png");
-}
-
-.project-3 {
-  background-image: url("../imgs/react-dictionary.png");
-}
-
-.project-3 {
-  background-image: url("../imgs/responsive-blender.png");
 }
 
 .project-4 {
