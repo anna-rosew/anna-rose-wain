@@ -1,13 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../Styles/App.css";
 import "../Styles/Hero.css";
 import ContactButton from "../Components/ContactButton";
 
-//text-effect spotlight:https://codepen.io/Thrin/pen/bGKqxzW https://codepen.io/amatyulkov/pen/MWQyPXp
+const spotlightSize = 200; // Define the size of the spotlight
 
 export default function Hero() {
+  const [spotlightStyle, setSpotlightStyle] = useState({
+    left: "50%",
+    top: "50%",
+  });
+
+  const handleMouseMove = (event) => {
+    const { clientX: x, clientY: y } = event;
+    setSpotlightStyle({
+      left: `${x - spotlightSize / 2}px`,
+      top: `${y - spotlightSize / 2}px`,
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
+
   return (
     <div className="hero-container" id="about">
+      <div className="spotlight" style={spotlightStyle}></div>
       <div className="hero">
         <h2 className="bio">
           <strong>
@@ -24,11 +45,11 @@ export default function Hero() {
           >
             Loughborough University
           </a>{" "}
-          with software engineering training, her projects prioritise thorough
+          with software engineering training, her projects prioritize thorough
           programming functionality and interactive user interfaces.
           <br />
           <br />
-          Her practice is centred around inclusivity and collaboration. When
+          Her practice is centered around inclusivity and collaboration. When
           she's not neck deep in debugging JavaScript, she enjoys getting into
           the mountains or watching a good film. ☻
         </h2>

@@ -33,15 +33,37 @@ strong {
   text-align: left;
 }
 
+/* Hero.css */
+
+.hero-container {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+
 .bio {
+  position: relative;
   width: 70%;
   font-weight: 400;
   font-style: normal;
   font-size: 36px;
   color: white;
-  opacity: 100%;
   display: block;
   margin: 30px;
+  z-index: 1;
+  mix-blend-mode: difference; /* This will invert colors where the spotlight overlaps */
+}
+
+.spotlight {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: white; /* Solid white spotlight */
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference; /* This will invert colors where the spotlight overlaps */
+  z-index: 0;
+  border-radius: 50%; /* Make the spotlight circular */
 }
 
 .left-align {
