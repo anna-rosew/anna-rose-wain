@@ -15,6 +15,7 @@ const WorkSection = () => {
       liveLink: "https://blender-rookie.netlify.app",
       date: "Jun 2024",
       image: require("../imgs/blender-rookie.png"),
+      hoverImage: require("../imgs/blender-rookie2.png"),
     },
 
     {
@@ -27,6 +28,7 @@ const WorkSection = () => {
       liveLink: "https://sip-synth.netlify.app/",
       date: "May 2024",
       image: require("../imgs/sip-synth.png"),
+      hoverImage: require("../imgs/sip-synth2.png"),
     },
 
     {
@@ -39,6 +41,7 @@ const WorkSection = () => {
       liveLink: "https://skyline-forecast.netlify.app/",
       date: "May 2024",
       image: require("../imgs/weather-app.png"),
+      hoverImage: require("../imgs/weather-app2.png"),
     },
 
     {
@@ -48,7 +51,8 @@ const WorkSection = () => {
       altText: "Rose Long: Yoga and Coaching",
       tags: ["eCommerce", "Branding", "Data Management/CMS", "SEO"],
       date: "Sep 2023",
-      image: require("../imgs/"),
+      image: require("../imgs/rose-long.png"),
+      hoverImage: require("../imgs/rose-long2.png"),
     },
     {
       title: "World Clock App",
@@ -59,6 +63,7 @@ const WorkSection = () => {
       liveLink: "https://time-track-world.netlify.app/",
       date: "April 2023",
       image: require("../imgs/world-clock-app.png"),
+      hoverImage: require("../imgs/world-clock-app.png"),
     },
   ];
 

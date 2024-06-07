@@ -4,7 +4,12 @@ import "../Styles/App.css";
 const ProjectCard = ({ projectInfo }) => {
   return (
     <div className="col-md-12">
-      <a href={projectInfo.liveLink} alt={projectInfo.altText}>
+      <a
+        href={projectInfo.liveLink}
+        alt={projectInfo.altText}
+        target="_blank"
+        rel="noreferrer"
+      >
         <div
           className={`custom-gap work-example-card ${projectInfo.className}`}
         >
