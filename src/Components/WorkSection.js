@@ -13,7 +13,7 @@ const WorkSection = () => {
       repoLink: "https://github.com/anna-rosew/blender-rookie",
       liveLink: "https://blender-rookie.netlify.app",
       date: "Jun 2024",
-      image: require("../imgs/react-weather-app.png"),
+      image: require("../imgs/blender-rookie.png"),
     },
 
     {
