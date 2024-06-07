@@ -6,6 +6,17 @@ import ProjectCard from "../Components/ProjectCard";
 const WorkSection = () => {
   const projects = [
     {
+      title: "Blender Rookie Website",
+      className: "project-1",
+      altText: "Blender Rookie Web App",
+      tags: ["App", "React.js", "API Integration"],
+      repoLink: "https://github.com/anna-rosew/blender-rookie",
+      liveLink: "https://blender-rookie.netlify.app",
+      date: "Jun 2024",
+      image: require("../imgs/react-weather-app.png"),
+    },
+
+    {
       title: "Weather App",
       className: "project-1",
       altText: "React Weather App",
