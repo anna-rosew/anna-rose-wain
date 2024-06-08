@@ -12,9 +12,7 @@ const ProjectCard = ({ projectInfo }) => {
       >
         <div
           className={`custom-gap work-example-card ${projectInfo.className}`}
-        >
-          {/* Background image will be applied here */}
-        </div>
+        ></div>
       </a>
       <div className="project-caption">
         {projectInfo.tags.map((tag, index) => (

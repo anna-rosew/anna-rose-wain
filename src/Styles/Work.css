@@ -19,21 +19,36 @@
   height: 400px;
   border: 2px solid black;
   border-radius: 23px;
+  transition: background-color 0.5s ease, transform 1s ease;
 }
 .project-1 {
   background-image: url("../imgs/blender-rookie.png");
+}
+
+.project-1:hover {
+  background-image: url("../imgs/blender-rookie2.png"); /* Add the hover image */
 }
 
 .project-2 {
   background-image: url("../imgs/sip-synth.png");
 }
 
+.project-2:hover {
+  background-image: url("../imgs/sip-synth2.png");
+}
+
 .project-3 {
   background-image: url("../imgs/weather-app.png");
+}
+.project-3:hover {
+  background-image: url("../imgs/weather-app2.png");
 }
 
 .project-4 {
   background-image: url("../imgs/rose-long.png");
+}
+.project-4:hover {
+  background-image: url("../imgs/rose-long2.png");
 }
 
 .project-5 {
