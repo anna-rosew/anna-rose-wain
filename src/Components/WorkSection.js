@@ -33,7 +33,7 @@ const WorkSection = () => {
 
     {
       title: "Weather App",
-      subtitle: "Providing local live weather updates",
+      subtitle: "Providing local live weather updates.",
       className: "project-3",
       altText: "Weather App",
       tags: ["App", "Boostrap", "Responsive"],
@@ -46,7 +46,7 @@ const WorkSection = () => {
 
     {
       title: "Rose Long: Yoga and Coaching",
-      subtitle: "Coming Soon",
+      subtitle: "Coming Soon.",
       className: "project-4",
       altText: "Rose Long: Yoga and Coaching",
       tags: ["eCommerce", "Branding", "Data Management/CMS", "SEO"],
@@ -56,14 +56,15 @@ const WorkSection = () => {
     },
     {
       title: "World Clock App",
+      subtitle: "Tell the time wherever you are.",
       className: "project-5",
       altText: "World Clock App",
       tags: ["API Integration", "React.js", "NPM"],
       repoLink: "https://github.com/anna-rosew/world-clock",
       liveLink: "https://time-track-world.netlify.app/",
       date: "April 2023",
-      image: require("../imgs/world-clock-app.png"),
-      hoverImage: require("../imgs/world-clock-app.png"),
+      image: require("../imgs/world-clock.png"),
+      hoverImage: require("../imgs/world-clock2.png"),
     },
   ];
 

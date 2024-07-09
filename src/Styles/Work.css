@@ -54,11 +54,11 @@
 }
 
 .custom-gap.work-example-card.project-5 {
-  background-image: url("../imgs/world-clock-app.png");
+  background-image: url("../imgs/world-clock.png");
 }
 
 .custom-gap.work-example-card.project-5:hover {
-  background-image: url("../imgs/world-clock-app.png");
+  background-image: url("../imgs/world-clock2.png");
 }
 
 /* Add class for two projects per row */
