@@ -21,8 +21,9 @@
   border-radius: 23px;
   transition: background-color 0.5s ease, transform 1s ease;
 }
-.custom-gap.work-example-card.project-1 {
+.custom-gap.work-example-card {
   background-image: url("../imgs/blender-rookie.png");
+  transition: background-image 0.3s ease;
 }
 
 .custom-gap.work-example-card.project-1:hover {
