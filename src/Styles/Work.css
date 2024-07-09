@@ -21,37 +21,43 @@
   border-radius: 23px;
   transition: background-color 0.5s ease, transform 1s ease;
 }
-.project-1 {
+.custom-gap.work-example-card.project-1 {
   background-image: url("../imgs/blender-rookie.png");
 }
 
-.project-1:hover {
-  background-image: url("../imgs/blender-rookie2.png"); /* Add the hover image */
+.custom-gap.work-example-card.project-1:hover {
+  background-image: url("../imgs/blender-rookie2.png");
 }
 
-.project-2 {
+.custom-gap.work-example-card.project-2 {
   background-image: url("../imgs/sip-synth.png");
 }
 
-.project-2:hover {
+.custom-gap.work-example-card.project-2:hover {
   background-image: url("../imgs/sip-synth2.png");
 }
 
-.project-3 {
+.custom-gap.work-example-card.project-3 {
   background-image: url("../imgs/weather-app.png");
 }
-.project-3:hover {
+
+.custom-gap.work-example-card.project-3:hover {
   background-image: url("../imgs/weather-app2.png");
 }
 
-.project-4 {
+.custom-gap.work-example-card.project-4 {
   background-image: url("../imgs/rose-long.png");
 }
-.project-4:hover {
+
+.custom-gap.work-example-card.project-4:hover {
   background-image: url("../imgs/rose-long2.png");
 }
 
-.project-5 {
+.custom-gap.work-example-card.project-5 {
+  background-image: url("../imgs/world-clock-app.png");
+}
+
+.custom-gap.work-example-card.project-5:hover {
   background-image: url("../imgs/world-clock-app.png");
 }
 

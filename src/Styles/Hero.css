@@ -51,19 +51,19 @@ strong {
   display: block;
   margin: 30px;
   z-index: 1;
-  mix-blend-mode: difference; /* This will invert colors where the spotlight overlaps */
+  mix-blend-mode: difference;
 }
 
 .spotlight {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: white; /* Solid white spotlight */
+  background: white;
   pointer-events: none;
-  transform: translate(-50%, -50%);
-  mix-blend-mode: difference; /* This will invert colors where the spotlight overlaps */
+  transform: translate(50%, 50%);
+  mix-blend-mode: difference;
   z-index: 0;
-  border-radius: 50%; /* Make the spotlight circular */
+  border-radius: 50%;
 }
 
 .left-align {

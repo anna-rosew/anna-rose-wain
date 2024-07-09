@@ -125,19 +125,6 @@ export default function Hero() {
                 </a>
               </div>
             </div>
-            <div className="col-sm-6 col-md">
-              <div className="summary-links">
-                <h2>Other work</h2>
-                <a
-                  className="summary"
-                  href="https://github.com/anna-rosew"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  See some art
-                </a>
-              </div>
-            </div>
           </div>
           <ContactButton />
         </div>
