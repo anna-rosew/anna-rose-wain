@@ -1,19 +1,28 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../Styles/App.css";
 import { useInView } from "react-intersection-observer";
 
 const ProjectCard = ({ projectInfo }) => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Load the image only once
-    threshold: 0.1, // Trigger when 10% of the element is in view
+    triggerOnce: true,
+    threshold: 0.1,
   });
+
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [hoverImageLoaded, setHoverImageLoaded] = useState(false);
 
   useEffect(() => {
     if (inView) {
-      // Preload both the initial and hover images
       const img1 = new Image();
+      img1.onload = () => {
+        setImageLoaded(true);
+      };
       img1.src = projectInfo.image;
+
       const img2 = new Image();
+      img2.onload = () => {
+        setHoverImageLoaded(true);
+      };
       img2.src = projectInfo.hoverImage;
     }
   }, [inView, projectInfo.image, projectInfo.hoverImage]);
@@ -27,7 +36,9 @@ const ProjectCard = ({ projectInfo }) => {
         rel="noreferrer"
       >
         <div
-          className={`custom-gap work-example-card ${projectInfo.className}`}
+          className={`custom-gap work-example-card ${
+            imageLoaded && hoverImageLoaded ? "" : "blurry-image"
+          } ${projectInfo.className}`}
         ></div>
       </a>
       <div className="project-caption">

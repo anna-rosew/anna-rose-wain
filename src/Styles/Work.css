@@ -12,6 +12,11 @@
   margin: 10px;
 }
 
+.blurry-image {
+  filter: blur(8px); /* Adjust blur strength as needed */
+  transition: filter 0.3s ease-out; /* Smooth transition when removing blur */
+}
+
 .work-example-card {
   background-repeat: none;
   background-size: cover;
