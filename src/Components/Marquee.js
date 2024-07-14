@@ -11,16 +11,115 @@ export default function Marquee() {
   return (
     <div className="marquee-container">
       <section className="enable-animation">
-        <div className="marquee" onDoubleClick={handleDoubleClick}>
+        <div
+          className={`marquee ${reverseAnimation && "marquee--reverse"}`}
+          onDoubleClick={handleDoubleClick}
+        >
           <ul className="marquee__content">
             <div className="marquee__item">
-              <p>React.js</p>
+              <p>REACT.JS </p>
+            </div>
+            <div className="marquee__item">
+              <p>JAVASCRIPT</p>
+            </div>
+            <div className="marquee__item">
+              <p>HTML & CSS</p>
+            </div>
+            <div className="marquee__item">
+              <p>VANILLA.JS</p>
+            </div>
+            <div className="marquee__item">
+              <p>REST APIS</p>
+            </div>
+            <div className="marquee__item">
+              <p>WIREFRAMING</p>
+            </div>
+            <div className="marquee__item">
+              <p>FIGMA</p>
+            </div>
+            <div className="marquee__item">
+              <p>UI/UX</p>
+            </div>
+            <div className="marquee__item">
+              <p>BOOTSTRAP</p>
+            </div>
+            <div className="marquee__item">
+              <p>RESPONSIVE WEB DESIGN</p>
+            </div>
+            <div className="marquee__item">
+              <p>ADOBE CREATIVE SUITE</p>
+            </div>
+            <div className="marquee__item">
+              <p>GIT</p>
+            </div>
+            <div className="marquee__item">
+              <p>GITHUB</p>
+            </div>
+            <div className="marquee__item">
+              <p>VERSION CONTROL</p>
+            </div>
+            <div className="marquee__item">
+              <p>BLENDER 3D</p>
+            </div>
+            <div className="marquee__item">
+              <p>SPLINE 3D</p>
+            </div>
+            <div className="marquee__item">
+              <p>NODE.JS</p>
             </div>
           </ul>
           <ul aria-hidden="true" className="marquee__content">
-            <div className=" marquee__item"></div>
-            <div className=" marquee__item"></div>
-            <div className=" marquee__item"></div>
+            <div className="marquee__item">
+              <p>REACT.JS</p>
+            </div>
+            <div className="marquee__item">
+              <p>JAVASCRIPT</p>
+            </div>
+            <div className="marquee__item">
+              <p>HTML & CSS</p>
+            </div>
+            <div className="marquee__item">
+              <p>VANILLA.JS</p>
+            </div>
+            <div className="marquee__item">
+              <p>REST APIs</p>
+            </div>
+            <div className="marquee__item">
+              <p>WIREFRAMING</p>
+            </div>
+            <div className="marquee__item">
+              <p>FIGMA</p>
+            </div>
+            <div className="marquee__item">
+              <p>UI/UX</p>
+            </div>
+            <div className="marquee__item">
+              <p>BOOTSTRAP</p>
+            </div>
+            <div className="marquee__item">
+              <p>RESPONSIVE WEB DESIGN</p>
+            </div>
+            <div className="marquee__item">
+              <p>ADOBE CREATIVE SUITE</p>
+            </div>
+            <div className="marquee__item">
+              <p>GIT</p>
+            </div>
+            <div className="marquee__item">
+              <p>GITHUB</p>
+            </div>
+            <div className="marquee__item">
+              <p>VERSION CONTROL</p>
+            </div>
+            <div className="marquee__item">
+              <p>BLENDER 3D</p>
+            </div>
+            <div className="marquee__item">
+              <p>SPLINE 3D</p>
+            </div>
+            <div className="marquee__item">
+              <p>NODE.JS</p>
+            </div>
           </ul>
         </div>
       </section>

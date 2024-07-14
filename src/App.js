@@ -22,14 +22,6 @@ function App() {
         <main>
           <div className="container-body">
             <Marquee />
-            <p>
-              {" "}
-              JavaScript | HTML & CSS | Vanilla.js | React.js | REST APIs |
-              Wireframing | UI/UX | Bootstrap | Responsive Web Design | Adobe
-              Creative Suite | Git | Version Control | Blender 3D | VR/AR
-              Development | C# | Three.js | Photoshop | p5.js | Yarn | NPM.js |
-            </p>
-
             <Header />
             <Work />
             <Hero id="hero" />

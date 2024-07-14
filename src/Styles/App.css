@@ -69,14 +69,15 @@ br {
   margin: 1em;
 }
 
-marquee {
+.marquee {
   --gap: 1rem;
   position: relative;
   display: flex;
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
-  border: 2px dashed lightgray;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .marquee {
@@ -87,8 +88,10 @@ marquee {
   flex-shrink: 0;
   display: flex;
   justify-content: space-around;
+  height: 50px;
   gap: var(--gap);
   min-width: 100%;
+  margin: 0;
 }
 
 .marquee__content > * {
@@ -109,6 +112,7 @@ marquee {
 
 .marquee__content p {
   color: black;
+  font-weight: 500;
 }
 
 .marquee__item {
@@ -117,10 +121,18 @@ marquee {
   align-items: center;
 }
 
-ul {
-  padding-left: 0;
+.marquee__content img {
+  max-width: 2rem;
+  width: 100%;
+  object-fit: contain;
 }
 
 .enable-animation .marquee__content {
-  animation: scroll 10s linear infinite;
+  animation: scroll 50s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__content {
+    animation-play-state: paused !important;
+  }
 }
