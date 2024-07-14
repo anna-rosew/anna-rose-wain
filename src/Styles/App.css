@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap");
-
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
 .App {
   margin: 0 auto;
   cursor: url("../imgs/cursor.svg");
@@ -60,4 +67,60 @@ p {
 
 br {
   margin: 1em;
+}
+
+marquee {
+  --gap: 1rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  border: 2px dashed lightgray;
+}
+
+.marquee {
+  background: #e8daef;
+}
+
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+}
+
+.marquee__content > * {
+  flex: 0 0 auto;
+  margin: 2px;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.marquee:hover .marquee__content {
+  animation-play-state: paused;
+}
+
+.marquee--reverse .marquee__content {
+  animation-direction: reverse !important;
+}
+
+.marquee__content p {
+  color: black;
+}
+
+.marquee__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.enable-animation .marquee__content {
+  animation: scroll 10s linear infinite;
 }
