@@ -32,26 +32,19 @@ export default function Hero() {
       <div className="hero">
         <h2 className="bio">
           <strong>
-            Anna-Rose Wain is a front-end developer and digital artist based in
-            Liverpool, England.
+            I’m Anna-Rose, I’m a junior front-end developer who specializes in
+            creating interactive custom websites. With a background in the arts,
+            I love using javascript creatively to make unique user interfaces
+            using clean code.
           </strong>{" "}
-          Combining her BFA in Fine Art from{" "}
-          <a
-            className="loughborough"
-            href="https://www.lboro.ac.uk/schools/design-creative-arts/research-innovation/our-research/fine-art/"
-            target="_blank"
-            rel="noreferrer"
-            alt="Loughborough University Link"
-          >
-            Loughborough University
-          </a>{" "}
-          with software engineering training, her projects prioritize thorough
-          programming functionality and interactive user interfaces.
           <br />
           <br />
-          Her practice is centered around inclusivity and collaboration. When
-          she's not neck deep in debugging JavaScript, she enjoys getting into
-          the mountains or watching a good film. ☻
+          Inclusivity and sustainability on the web are also very important to
+          me. When I’m not neck deep in debugging, you’ll probably find me
+          running up a hill somewhere.
+          <br />
+          <br />I love chatting about code, design and all things collaboration
+          so say hello! ☻
         </h2>
         <div className="details-container">
           <div className="row justify-content-start left-align">

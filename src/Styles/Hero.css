@@ -50,6 +50,7 @@ strong {
   color: white;
   display: block;
   margin: 30px;
+  margin-left: 60px;
   z-index: 1;
   mix-blend-mode: difference;
 }
@@ -71,23 +72,12 @@ strong {
   text-align: left;
 }
 
-a.loughborough {
-  color: white;
-  text-decoration: none;
-}
-
-a.loughborough:hover {
-  text-decoration: underline;
-}
-
 hr {
   margin: 0;
 }
 
-.containerSummary {
-  max-width: 1400px;
-  margin: 0 auto;
-  background-color: black;
+.details-container {
+  margin-left: 60px;
 }
 
 a.summary {

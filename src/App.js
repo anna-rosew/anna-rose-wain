@@ -22,9 +22,9 @@ function App() {
         <main>
           <div className="container-body">
             <Marquee />
+            <Hero id="hero" />
             <Header />
             <Work />
-            <Hero id="hero" />
           </div>
         </main>
         <Footer />
