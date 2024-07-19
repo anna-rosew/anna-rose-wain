@@ -33,7 +33,9 @@ strong {
   text-align: left;
 }
 
-/* Hero.css */
+.hero-icon {
+  filter: invert(1);
+}
 
 .hero-container {
   position: relative;
