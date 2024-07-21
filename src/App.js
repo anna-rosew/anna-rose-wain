@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import "../src/Styles/index.css";
 import "./Styles/App.css";
 import Header from "./Components/Header";
-import Hero2 from "./Components/Hero2.js";
+import Landing from "./Components/Landing.js";
 import Hero from "./Components/Hero";
 import Work from "./Components/WorkSection";
 import Footer from "./Components/Footer.js";
@@ -23,10 +23,10 @@ function App() {
         <main>
           <div className="container-body">
             <Marquee />
-            <Hero2 />
+            <Landing />
             <Hero id="hero" />
             <Header />
-            <Work />
+            <Work id="work" />
           </div>
         </main>
         <Footer />
