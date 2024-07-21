@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../Styles/App.css";
 import "../Styles/Hero.css";
 import ContactButton from "../Components/ContactButton";
-import lightningIcon from "../imgs/icons/lightning.svg";
+import lightningIcon from "";
 
 const spotlightSize = 200;
 
@@ -32,14 +32,7 @@ export default function Hero() {
       <div className="spotlight" style={spotlightStyle}></div>
       <div className="hero">
         <h2 className="bio">
-          I’m Anna-Rose, a{" "}
-          <svg
-            src={lightningIcon}
-            alt="Lightning icon"
-            class="hero-icons"
-            width="300"
-            stroke="white"
-          />
+          I’m Anna-Rose, a <img src={lightningIcon} alt="Lightning icon"></img>
           junior front-end developer who specializes in creating interactive
           custom websites. With a background in the arts, I love using
           javascript creatively to make unique user interfaces using clean code.
