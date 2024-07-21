@@ -67,21 +67,6 @@ export default function Marquee() {
             <div className="marquee__item">
               <p>NODE.JS</p>
             </div>
-            <div className="marquee__item">
-              <p>SCSS</p>
-            </div>
-            <div className="marquee__item">
-              <p>SEO</p>
-            </div>
-            <div className="marquee__item">
-              <p>WEB ACCESSIBILITY</p>
-            </div>
-            <div className="marquee__item">
-              <p>TESTING/DEBUGGING</p>
-            </div>
-            <div className="marquee__item">
-              <p>SQL</p>
-            </div>
           </ul>
           <ul aria-hidden="true" className="marquee__content">
             <div className="marquee__item">
@@ -134,21 +119,6 @@ export default function Marquee() {
             </div>
             <div className="marquee__item">
               <p>NODE.JS</p>
-            </div>
-            <div className="marquee__item">
-              <p>SCSS</p>
-            </div>
-            <div className="marquee__item">
-              <p>SEO</p>
-            </div>
-            <div className="marquee__item">
-              <p>WEB ACCESSIBILITY</p>
-            </div>
-            <div className="marquee__item">
-              <p>TESTING/DEBUGGING</p>
-            </div>
-            <div className="marquee__item">
-              <p>SQL</p>
             </div>
           </ul>
         </div>
