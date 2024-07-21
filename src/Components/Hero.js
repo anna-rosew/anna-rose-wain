@@ -3,7 +3,7 @@ import "../Styles/App.css";
 import "../Styles/Hero.css";
 import ContactButton from "../Components/ContactButton";
 
-const spotlightSize = 200;
+const spotlightSize = 200; // Define the size of the spotlight
 
 export default function Hero() {
   const [spotlightStyle, setSpotlightStyle] = useState({
@@ -31,10 +31,12 @@ export default function Hero() {
       <div className="spotlight" style={spotlightStyle}></div>
       <div className="hero">
         <h2 className="bio">
-          I’m Anna-Rose, a junior front-end developer who specializes in
-          creating interactive custom websites. With a background in the arts, I
-          love using javascript creatively to make unique user interfaces using
-          clean code.
+          <strong>
+            I’m Anna-Rose, I’m a junior front-end developer who specializes in
+            creating interactive custom websites. With a background in the arts,
+            I love using javascript creatively to make unique user interfaces
+            using clean code.
+          </strong>{" "}
           <br />
           <br />
           Inclusivity and sustainability on the web are also very important to
