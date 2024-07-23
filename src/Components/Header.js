@@ -7,7 +7,7 @@ export default function Header() {
     <div className="Header">
       <div className="header-item-1">Hello</div>
       <div className="header-item-2">poop</div>
-      <div className="header-item-3">WOrk</div>
+      <div className="header-item-3">Work</div>
     </div>
   );
 }
