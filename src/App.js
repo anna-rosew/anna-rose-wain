@@ -8,6 +8,7 @@ import Hero from "./Components/Hero";
 import Work from "./Components/WorkSection";
 import Footer from "./Components/Footer.js";
 import Marquee from "./Components/Marquee.js";
+import LandingScreen from "./Components/LandingScreen.js";
 //Animations for loading
 
 //Dark and light mode
@@ -22,6 +23,7 @@ function App() {
         <main>
           <div className="container-body">
             <Marquee />
+            <LandingScreen />
             <Hero id="hero" />
             <Header />
             <Work />
