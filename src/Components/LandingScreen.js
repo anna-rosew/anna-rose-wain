@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/LandingScreen.css";
 import Header from "./Header";
 
-import emoji from "../Styles"
+import emoji from "../imgs/icons/robot.svg";
 
 export default function LandingScreen() {
   return (
@@ -14,9 +14,12 @@ export default function LandingScreen() {
       </div>
       <h1>CREATIVE</h1>
       <h1>DEVELOPER/DESIGNER</h1>
-      <h2>
-        I’M A JUNIOR FRONT-END DEVELOPER SPECIALISING IN INTERACTIVE INTERFACES.{" "}
-      </h2>
+      <div className="text-container">
+        <h2>
+          I’M A JUNIOR FRONT-END DEVELOPER SPECIALISING IN INTERACTIVE
+          INTERFACES.{" "}
+        </h2>
+      </div>
     </div>
   );
 }
