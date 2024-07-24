@@ -1,7 +1,7 @@
 .Header {
   display: flex;
   position: fixed;
-  color: white;
+  color: black;
   justify-content: space-between;
   z-index: 7;
   width: 100%;
@@ -13,23 +13,31 @@
 
 .header-item-1 {
   flex: 1;
-  padding: 60px;
+  margin: 30px;
 }
 
 .header-item-2 {
   flex: 1;
   text-align: center;
   align-items: flex-start;
-  padding: 60px;
+  margin: 30px;
 }
 
 .header-item-3 {
   flex: 1;
   display: flex;
   text-align: right;
-  padding: 60px;
+  margin: 30px;
   justify-content: flex-end;
   gap: 60px;
+}
+
+.switch-it-up {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 110px;
+  text-align: center;
 }
 
 .about-link {
@@ -41,10 +49,4 @@
 .about-anchor:hover {
   cursor: pointer;
   text-decoration: underline;
-}
-
-@media (max-width: 960px) {
-  .logo {
-    margin-bottom: 10px;
-  }
 }

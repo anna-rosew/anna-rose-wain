@@ -22,8 +22,8 @@ function App() {
       <div className="App">
         <main>
           <div className="container-body">
-            <Marquee />
             <LandingScreen />
+            <Marquee />
             <Hero id="hero" />
             <Header />
             <Work />
