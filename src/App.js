@@ -13,6 +13,7 @@ import LandingScreen from "./Components/LandingScreen.js";
 
 //Dark and light mode
 //Get in touch button near top
+//image gifs: https://gsap.com/community/forums/topic/36083-images-stick-smoothly-to-cursor/#comment-180675
 
 //Inspired: https://p5aholic.me/contact/
 

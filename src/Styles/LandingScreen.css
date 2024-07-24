@@ -33,3 +33,10 @@ h1 {
 .text-container h2 {
   font-size: 20px;
 }
+
+.arrow img {
+  display: block;
+  height: 80px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
