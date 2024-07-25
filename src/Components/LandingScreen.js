@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/LandingScreen.css";
 import Header from "./Header";
-
+import { motion } from "framer-motion";
 
 import emoji from "../imgs/icons/robot.svg";
 import arrow from "../imgs/icons/arrow.svg";
@@ -14,6 +14,17 @@ export default function LandingScreen() {
       <div className="emoji">
         <img src={emoji} alt="Robot Gif" />
       </div>
+      <motion.h1
+        initial={{ x: -1000 }}
+        animate={{ x: [0, 900] }}
+        transition={{
+          duration: "3",
+          delay: "1",
+        }}
+        whileHover={{ scale: "1.5" }}
+      >
+        CREATIVE
+      </motion.h1>
       <h1>CREATIVE</h1>
       <h1>DEVELOPER/DESIGNER</h1>
       <div className="text-container">
