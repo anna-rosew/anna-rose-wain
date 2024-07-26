@@ -10,23 +10,17 @@ export default function LandingScreen() {
     <div className="LandingScreen">
       <Header />
 
-      <div className="emoji">
-        <img src={emoji} alt="Robot Gif" />
-      </div>
       <div className="title">
         {" "}
-        <h1>CREATIVE</h1>
-        <h1>DEVELOPER/DESIGNER</h1>
+        <h1>Hi, I'm Anna.</h1>
+        <span>
+          <h1>A Web Developer</h1>
+          <h1 className="small">based in Liverpool.</h1>
+        </span>
       </div>
-
-      <div className="text-container">
-        <h2>
-          I’M A JUNIOR FRONT-END DEVELOPER SPECIALISING IN INTERACTIVE
-          INTERFACES.{" "}
-        </h2>
-      </div>
-      <div className="arrow">
-        <img src={arrow} alt="Arrow pointing down" />
+      <div className="nav">
+        <img src={emoji} alt="Robot Gif" className="robot-img" />
+        <img src={arrow} alt="Arrow pointing down" className="arrow-img" />
       </div>
     </div>
   );

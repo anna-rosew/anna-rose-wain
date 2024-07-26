@@ -11,10 +11,6 @@
   margin: 0 auto;
 }
 
-.title {
-  padding-top: 150px;
-}
-
 h1 {
   font-size: 100px;
   font-weight: 600;
@@ -22,21 +18,41 @@ h1 {
   margin: 0px;
 }
 
-.text-container {
+.title {
   display: block;
+  padding-top: 200px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.title h1 {
   text-align: center;
   font-size: 40px;
-  width: 300px;
-  margin: 0 auto;
+}
+
+.small {
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .text-container h2 {
   font-size: 20px;
 }
 
-.arrow img {
-  display: block;
-  height: 80px;
+.nav {
+  display: flex;
+  align-items: center;
   padding-top: 100px;
-  margin: 0 auto;
+}
+
+.arrow-img {
+  display: block;
+  height: 150px;
+  padding-top: 100px;
+  margin-left: 1300px;
+}
+
+.robot-img {
+  display: block;
+  height: 150px;
 }
