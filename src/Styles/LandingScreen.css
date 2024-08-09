@@ -3,6 +3,7 @@
   height: 94vh;
   background-color: #ede8e4;
   color: black;
+  position: relative; /* Ensure positioning context for absolute elements */
 }
 
 .emoji img {
@@ -41,12 +42,16 @@ h1 {
 
 .nav {
   position: relative;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Ensure the .nav takes the full viewport height */
 }
 
 .robot-img {
   position: absolute;
   top: 0;
-  height: 100px;
+  height: 70px;
 }
 
 .arrow-img {
@@ -56,7 +61,8 @@ h1 {
 }
 
 .nav-element {
-  border: 1px solid red;
-  display: block;
-  width: 20%;
+  position: relative; /* Use relative to stay within .nav's context */
+  width: auto; /* Let the width adjust automatically */
+  border: 1px solid red; /* Temporary border to visualize placement */
+  margin: 0 5%; /* Adjust the horizontal spacing */
 }
