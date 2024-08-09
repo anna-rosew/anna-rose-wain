@@ -39,20 +39,29 @@ h1 {
   font-size: 20px;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  padding-top: 100px;
+.nav-element {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
 }
 
-.arrow-img {
-  display: block;
-  height: 150px;
-  padding-top: 100px;
-  margin-left: 1300px;
+.nav {
+  position: relative;
 }
 
 .robot-img {
-  display: block;
+  position: absolute;
+  top: 0;
   height: 100px;
+}
+
+.arrow-img {
+  position: absolute;
+  top: 100px;
+  height: 150px;
+}
+
+.nav-element {
+  border: 1px solid red;
 }

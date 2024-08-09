@@ -12,15 +12,17 @@ export default function LandingScreen() {
 
       <div className="title">
         {" "}
-        <h1>Hi, I'm Anna.</h1>
+        <h1>Hi, I'm Anna,</h1>
         <span>
-          <h1>A Web Developer</h1>
+          <h1>a web developer</h1>
           <h1 className="small">based in Liverpool.</h1>
         </span>
       </div>
-      <div className="nav">
-        <img src={emoji} alt="Robot Gif" className="robot-img" />
-        <img src={arrow} alt="Arrow pointing down" className="arrow-img" />
+      <div className="nav-element">
+        <div className="nav">
+          <img src={emoji} alt="Robot Gif" className="robot-img" />
+          <img src={arrow} alt="Arrow pointing down" className="arrow-img" />
+        </div>
       </div>
     </div>
   );
