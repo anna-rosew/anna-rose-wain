@@ -39,13 +39,6 @@ h1 {
   font-size: 20px;
 }
 
-.nav-element {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: 1000;
-}
-
 .nav {
   position: relative;
 }
@@ -64,4 +57,6 @@ h1 {
 
 .nav-element {
   border: 1px solid red;
+  display: block;
+  width: 20%;
 }
