@@ -23,25 +23,9 @@ strong {
   font-weight: 700;
 }
 
-.hero {
-  color: black;
-  font-family: "balto", sans-serif;
-  background-color: white;
-  padding: 10px;
-  padding-bottom: 100px;
-  text-align: left;
-}
-
 /* Hero.css */
 
-.hero-container {
-  position: relative;
-  overflow: hidden;
-  background-color: white;
-}
-
 .bio {
-  position: relative;
   width: 70%;
   font-weight: 400;
   font-style: normal;
@@ -51,28 +35,36 @@ strong {
   margin: 30px;
   margin-left: 60px;
   z-index: 1;
-  mix-blend-mode: difference;
 }
 
-.spotlight {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background: black;
-  pointer-events: none;
-  transform: translate(50%, 50%);
-  mix-blend-mode: difference;
-  z-index: 0;
-  border-radius: 50%;
-  color: white;
+.line {
+  display: flex;
+  align-items: center; /* Center content vertically */
+}
+
+.line img {
+  height: 35px;
+  margin-right: 10px; /* Adjust spacing between the icon and text */
+  vertical-align: middle; /* Align the icon vertically with text */
+}
+
+.line span {
+  display: flex;
+  align-items: center; /* Ensure text also aligns with the icon */
 }
 
 .left-align {
   text-align: left;
 }
 
-hr {
-  margin: 0;
+@media (max-width: 960px) {
+  .hero {
+    padding-bottom: 10px;
+  }
+
+  .bio {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 960px) {
