@@ -12,8 +12,10 @@ export default function Header() {
         </h2>
       </div>
       <div className="header-item-2">
-        <div>WORK</div>
-        <div>CONTACT</div>
+        <span>
+          <div>WORK</div>
+          <div>CONTACT</div>
+        </span>
       </div>
     </div>
   );

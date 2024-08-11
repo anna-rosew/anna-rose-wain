@@ -21,28 +21,16 @@
 .header-item-2 {
   flex: 1;
   display: flex;
-  justify-content: space-evenly; /* Ensures equal spacing between the items */
   align-items: center;
+  justify-content: flex-end; /* Aligns the span to the right */
   margin: 30px;
-  gap: 100px; /* Space between items */
 }
 
-.switch-it-up {
-  padding: 10px;
-  border-radius: 20px;
-  border: 1px solid black;
-  width: 110px;
-  text-align: center;
+.header-item-2 span {
+  display: flex; /* Makes the span a flex container */
+  gap: 20px; /* Adjust this value to control the space between WORK and CONTACT */
 }
 
-.about-link {
-  font-size: 25px;
-  margin: 40px 30px 20px 10px;
-  text-align: right;
-  opacity: 80%;
-}
-
-.about-anchor:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.header-item-2 span > div {
+  /* Optional: additional styles for WORK and CONTACT divs */
 }
