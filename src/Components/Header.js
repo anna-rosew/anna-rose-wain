@@ -12,8 +12,8 @@ export default function Header() {
         </h2>
       </div>
       <div className="header-item-2">
-        <div>Work</div>
-        <div>Contact</div>
+        <div>WORK</div>
+        <div>CONTACT</div>
       </div>
     </div>
   );
