@@ -5,6 +5,7 @@ import "../Styles/Bio.css";
 import ContactButton from "../Components/ContactButton";
 
 import lightning from "../imgs/icons/lightning.svg";
+import internet from "../imgs/icons/lightning.svg";
 
 export default function Bio() {
   return (
@@ -17,7 +18,7 @@ export default function Bio() {
           </span>
           <span>web developer</span>
           <span className="show-gif-on-hover">
-            <img src={lightning} alt="Lightning icon wiggling." />
+            <img src={internet} alt="Lightning icon wiggling." />
           </span>
         </span>
       </p>

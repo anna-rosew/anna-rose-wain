@@ -38,9 +38,6 @@ export default function Marquee() {
               <p>FIGMA</p>
             </div>
             <div className="marquee__item">
-              <p>UI/UX</p>
-            </div>
-            <div className="marquee__item">
               <p>BOOTSTRAP</p>
             </div>
             <div className="marquee__item">
@@ -54,9 +51,6 @@ export default function Marquee() {
             </div>
             <div className="marquee__item">
               <p>GITHUB</p>
-            </div>
-            <div className="marquee__item">
-              <p>VERSION CONTROL</p>
             </div>
             <div className="marquee__item">
               <p>BLENDER 3D</p>
@@ -73,10 +67,7 @@ export default function Marquee() {
               <p>REACT.JS</p>
             </div>
             <div className="marquee__item">
-              <p>JAVASCRIPT</p>
-            </div>
-            <div className="marquee__item">
-              <p>HTML & CSS</p>
+              <p>HTML, CSS & JAVASCRIPT</p>
             </div>
             <div className="marquee__item">
               <p>VANILLA.JS</p>
@@ -91,25 +82,19 @@ export default function Marquee() {
               <p>FIGMA</p>
             </div>
             <div className="marquee__item">
-              <p>UI/UX</p>
-            </div>
-            <div className="marquee__item">
               <p>BOOTSTRAP</p>
             </div>
             <div className="marquee__item">
               <p>RESPONSIVE WEB DESIGN</p>
             </div>
             <div className="marquee__item">
-              <p>ADOBE CREATIVE SUITE</p>
+              <p>ADOBE ILLUSTRATOR & PHOTOSHOP</p>
             </div>
             <div className="marquee__item">
               <p>GIT</p>
             </div>
             <div className="marquee__item">
               <p>GITHUB</p>
-            </div>
-            <div className="marquee__item">
-              <p>VERSION CONTROL</p>
             </div>
             <div className="marquee__item">
               <p>BLENDER 3D</p>
