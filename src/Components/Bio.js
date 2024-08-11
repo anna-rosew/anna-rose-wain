@@ -8,7 +8,7 @@ import lightning from "../imgs/icons/lightning.svg";
 
 export default function Bio() {
   return (
-    <div className="hero-container" id="about">
+    <div className="bio-container" id="about">
       <p className="bio">
         <span className="line">
           <span>I’m Anna-Rose, I’m a</span>

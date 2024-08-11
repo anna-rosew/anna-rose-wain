@@ -23,17 +23,19 @@ strong {
   font-weight: 700;
 }
 
-/* Hero.css */
+.bio-container {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
 
 .bio {
   width: 70%;
   font-weight: 400;
   font-style: normal;
   font-size: 36px;
-  color: black;
   display: block;
-  margin: 30px;
-  margin-left: 60px;
+
   z-index: 1;
 }
 
@@ -43,9 +45,9 @@ strong {
 }
 
 .line img {
-  height: 35px;
-  margin-right: 10px; /* Adjust spacing between the icon and text */
-  vertical-align: middle; /* Align the icon vertically with text */
+  height: 50px;
+  margin-right: 10px;
+  filter: invert(1);
 }
 
 .line span {
