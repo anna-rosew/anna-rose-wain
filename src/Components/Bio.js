@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/App.css";
-import "../Styles/Hero.css";
+import "../Styles/Bio.css";
 
 import ContactButton from "../Components/ContactButton";
 
