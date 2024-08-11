@@ -22,15 +22,11 @@
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Aligns the span to the right */
+  justify-content: flex-end;
   margin: 30px;
 }
 
 .header-item-2 span {
-  display: flex; /* Makes the span a flex container */
-  gap: 20px; /* Adjust this value to control the space between WORK and CONTACT */
-}
-
-.header-item-2 span > div {
-  /* Optional: additional styles for WORK and CONTACT divs */
+  display: flex;
+  gap: 20px;
 }
