@@ -6,7 +6,7 @@ import ContactButton from "../Components/ContactButton";
 
 import lightning from "../imgs/icons/lightning.svg";
 
-export default function Hero() {
+export default function Bio() {
   return (
     <div className="hero-container" id="about">
       <p className="bio">
