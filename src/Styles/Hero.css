@@ -24,9 +24,9 @@ strong {
 }
 
 .hero {
-  color: white;
+  color: black;
   font-family: "balto", sans-serif;
-  background-color: black;
+  background-color: white;
   padding: 10px;
   padding-bottom: 100px;
   text-align: left;
@@ -37,7 +37,7 @@ strong {
 .hero-container {
   position: relative;
   overflow: hidden;
-  background-color: black;
+  background-color: white;
 }
 
 .bio {
@@ -46,7 +46,7 @@ strong {
   font-weight: 400;
   font-style: normal;
   font-size: 36px;
-  color: white;
+  color: black;
   display: block;
   margin: 30px;
   margin-left: 60px;
@@ -58,13 +58,13 @@ strong {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: white;
+  background: black;
   pointer-events: none;
   transform: translate(50%, 50%);
   mix-blend-mode: difference;
   z-index: 0;
   border-radius: 50%;
-  color: black;
+  color: white;
 }
 
 .left-align {

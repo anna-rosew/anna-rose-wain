@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../Styles/App.css";
 import "../Styles/Hero.css";
 
-import lightning from "../imgs/icons/";
+import lightning from "../imgs/icons/lightning.svg";
 
 const spotlightSize = 200; // Define the size of the spotlight
 
