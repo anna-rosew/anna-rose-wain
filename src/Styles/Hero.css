@@ -75,67 +75,6 @@ hr {
   margin: 0;
 }
 
-.details-container {
-  margin-left: 60px;
-}
-
-a.summary {
-  font-family: "komet", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  text-decoration: underline;
-  color: white;
-}
-
-a.summary:visited {
-  color: white;
-}
-
-a.summary:hover {
-  color: pink;
-}
-
-.summary-links {
-  padding: 10px;
-  color: white;
-}
-
-a[href^="mailto:"] {
-  color: white;
-}
-
-.summary-links h2 {
-  color: white;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  opacity: 80%;
-  margin-bottom: 2.5px;
-}
-
-@media (max-width: 960px) {
-  .summary-links {
-    padding: 5px;
-  }
-
-  .summary-links h2 {
-    margin: 0 auto;
-    padding: 1px;
-    font-size: 12px;
-  }
-
-  a.summary {
-    font-size: 12px;
-  }
-
-  /* Adjusting columns for small screens */
-  .col-sm-2 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
 @media (max-width: 960px) {
   .hero {
     padding-bottom: 10px;
