@@ -7,8 +7,10 @@
   width: 100%;
 }
 
-.logo h1 {
+.logo h2 {
   font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
 }
 
 .header-item-1 {
@@ -18,7 +20,7 @@
 
 .header-item-2 {
   flex: 1;
-  text-align: center;
+  text-align: right;
   align-items: flex-start;
   margin: 30px;
 }

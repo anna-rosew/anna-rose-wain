@@ -5,7 +5,12 @@ import "../Styles/Header.css";
 export default function Header() {
   return (
     <div className="Header">
-      <div className="header-item-1">ANNA-ROSE WAIN</div>
+      <div className="header-item-1 logo">
+        <h2>
+          ANNA-ROSE <br />
+          WAIN
+        </h2>
+      </div>
       <div className="header-item-2">
         <div>Work</div>
         <div>Contact</div>
