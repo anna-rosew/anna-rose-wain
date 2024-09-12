@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import { Element } from "react-scroll";
 
 import "../src/Styles/index.css";
 import "./Styles/App.css";
@@ -18,6 +19,9 @@ import LandingScreen from "./Components/LandingScreen.js";
 //Inspired: https://p5aholic.me/contact/
 
 function App() {
+  useEffect(() => {
+    console.log(document.getElementById("work"));
+  }, []);
   return (
     <Router>
       <div className="App">
@@ -25,9 +29,13 @@ function App() {
           <div className="container-body">
             <LandingScreen />
             <Marquee />
-            <Bio id="bio" />
+            <Element name="bio">
+              <Bio />
+            </Element>
             <Header />
-            <Work />
+            <Element name="work">
+              <Work />
+            </Element>
           </div>
         </main>
         <Footer />

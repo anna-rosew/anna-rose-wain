@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "../Styles/App.css";
 import "../Styles/Header.css";
 
@@ -6,27 +7,36 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="header-item-1 logo">
-        <h2>
-          ANNA-ROSE <br />
-          WAIN
-        </h2>
+        <Link
+          to="bio"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-70}
+          alt="Work"
+        >
+          <h2>
+            ANNA-ROSE <br />
+            WAIN
+          </h2>
+        </Link>
       </div>
       <div className="header-item-2">
         <span>
-          <div>WORK</div>
-          <div>CONTACT</div>
+          <Link
+            to="work"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-70}
+            className="menu-link work-link"
+            alt="Work"
+          >
+            WORK
+          </Link>
+          <div className="menu-link contact-link">CONTACT</div>
         </span>
       </div>
     </div>
   );
 }
-
-//import { Link } from "react-scroll"; <Link
-//to="about"
-//smooth={true}
-//duration={500}
-//alt="About"
-//className="about-anchor"
-//>
-//About
-//</Link>;
