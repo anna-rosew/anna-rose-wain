@@ -41,18 +41,30 @@ strong {
 
 .line {
   display: flex;
-  align-items: center; /* Center content vertically */
 }
 
 .line img {
   height: 50px;
   margin-right: 10px;
+}
+
+.invert {
   filter: invert(1);
+}
+
+div {
+  display: block;
+  text-align: start;
+  position: relative;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform: translate(0px, 0px);
 }
 
 .line span {
   display: flex;
-  align-items: center; /* Ensure text also aligns with the icon */
+  align-items: center;
 }
 
 .left-align {
