@@ -1,3 +1,4 @@
+/* ========== Bio Section Styling ========== */
 .bio-container {
   background-color: black;
   height: 80vh;
@@ -14,46 +15,47 @@
   z-index: 1;
 }
 
+/* ========== Line Section Styling ========== */
 .line {
   display: flex;
-  flex-wrap: nowrap; /* Prevents content from wrapping to a new line */
-  align-items: center; /* Aligns text and images vertically */
-  margin-bottom: 20px; /* Adds space between lines */
-  white-space: nowrap; /* Prevents text from breaking onto new lines */
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .line span {
-  display: inline-flex; /* Ensures span content stays inline */
+  display: inline-flex;
   align-items: center;
-  margin-right: 10px; /* Adds space between spans */
+  margin-right: 10px;
 }
 
 .line img {
-  height: 30px; /* Adjust image size */
-  margin-left: 5px; /* Adds space between text and image */
+  height: 30px;
+  margin-left: 5px;
 }
 
+/* ========== Text Style Variations ========== */
 .invert {
-  filter: invert(1); /* Invert colors for specific images */
+  filter: invert(1);
 }
 
 .underline {
-  text-decoration: underline; /* Underline text style */
+  text-decoration: underline;
 }
 
 .italics {
-  font-style: italic; /* Italicize text */
+  font-style: italic;
 }
 
 .bold {
-  font-weight: 700; /* Bold text */
+  font-weight: 700;
 }
 
-/* Contact Button Styling */
+/* ========== Contact Button Styling ========== */
 button.contact {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 15px;
   display: block;
   border: 1px solid white;
@@ -68,34 +70,30 @@ button.contact {
 
 .contact a {
   color: pink;
-  text-decoration: none; /* Remove underline from the contact link */
+  text-decoration: none;
 }
 
-/* Responsive Styling */
+/* ========== Responsive Styling ========== */
 @media (max-width: 960px) {
   .bio {
     font-size: 20px;
     width: 100%;
-    /* Adjust font size for smaller screens */
   }
 
   .bio-container {
-    background-color: black;
     height: 100vh;
-    color: white;
-    padding: 40px;
   }
 
   .desktop-bio {
-    display: none; /* Hide desktop structure on mobile */
+    display: none;
   }
 
   .mobile-bio {
-    display: block; /* Show mobile structure on mobile */
+    display: block;
   }
 
   .line img {
-    height: 20px; /* Reduce image size for smaller screens */
+    height: 20px;
   }
 
   .line {
