@@ -42,7 +42,6 @@ const Bio = () => {
               <span className="show-gif-on-hover">
                 <img src={internet} alt="Internet icon." />
               </span>
-              <span>who specialises in creating</span>
             </span>
             <span className="line">
               <span>who specialises in creating</span>
@@ -91,10 +90,10 @@ const Bio = () => {
               <span className="show-gif-on-hover">
                 <img src={code} alt="Code icon." />
               </span>
-              <span>, you’ll probably find me</span>
+              <span>, you’ll probably find</span>
             </span>
             <span className="line">
-              <span>running up a hill somewhere.</span>
+              <span>me running up a hill somewhere.</span>
             </span>
           </p>
           <p className="bio">
