@@ -1,7 +1,8 @@
 .bio-container {
   background-color: black;
+  height: 80vh;
   color: white;
-  padding: 30px;
+  padding: 40px;
 }
 
 .bio {
@@ -17,7 +18,7 @@
   display: flex;
   flex-wrap: nowrap; /* Prevents content from wrapping to a new line */
   align-items: center; /* Aligns text and images vertically */
-  margin-bottom: 10px; /* Adds space between lines */
+  margin-bottom: 20px; /* Adds space between lines */
   white-space: nowrap; /* Prevents text from breaking onto new lines */
 }
 
@@ -53,7 +54,7 @@ button.contact {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 15px;
   display: block;
   border: 1px solid white;
   margin-left: 5px;
@@ -74,10 +75,30 @@ button.contact {
 @media (max-width: 960px) {
   .bio {
     font-size: 20px;
-    width: 100%; /* Adjust font size for smaller screens */
+    width: 100%;
+    /* Adjust font size for smaller screens */
+  }
+
+  .bio-container {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding: 40px;
+  }
+
+  .desktop-bio {
+    display: none; /* Hide desktop structure on mobile */
+  }
+
+  .mobile-bio {
+    display: block; /* Show mobile structure on mobile */
   }
 
   .line img {
     height: 20px; /* Reduce image size for smaller screens */
+  }
+
+  .line {
+    margin-bottom: 10px;
   }
 }
