@@ -71,6 +71,14 @@ div {
   text-align: left;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.italics {
+  font-style: italic;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding-bottom: 10px;

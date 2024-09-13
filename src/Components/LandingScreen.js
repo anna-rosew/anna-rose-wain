@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/LandingScreen.css";
-import Header from "./Header";
 
 import emoji from "../imgs/icons/robot.svg";
 import arrow from "../imgs/icons/arrow.svg";
@@ -8,8 +7,6 @@ import arrow from "../imgs/icons/arrow.svg";
 export default function LandingScreen() {
   return (
     <div className="LandingScreen">
-      <Header />
-
       <div className="title">
         {" "}
         <h1>Hi, I'm Anna,</h1>

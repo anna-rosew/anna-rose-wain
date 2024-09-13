@@ -27,12 +27,12 @@ function App() {
       <div className="App">
         <main>
           <div className="container-body">
+            <Header />
             <LandingScreen />
             <Marquee />
             <Element name="bio">
               <Bio />
             </Element>
-            <Header />
             <Element name="work">
               <Work />
             </Element>
