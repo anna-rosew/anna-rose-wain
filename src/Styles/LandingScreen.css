@@ -109,6 +109,13 @@ a.summary:hover {
 }
 
 @media (max-width: 960px) {
+  .title {
+    display: block;
+    padding-top: 120px;
+    width: 400px;
+    margin: 0 auto;
+    height: 40%;
+  }
   .summary-links {
     padding: 5px;
   }
@@ -127,5 +134,26 @@ a.summary:hover {
   .col-sm-2 {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+
+  .nav-element {
+    position: absolute;
+    top: 104%; /* Start with vertical center */
+    right: 10%; /* Distance from the right side */
+    transform: translateY(
+      -50%
+    ); /* Adjust to be perfectly centered vertically */
+    width: auto;
+    padding: 20px;
+  }
+
+  .nav {
+    position: relative;
+    height: calc(
+      100vh - 80px
+    ); /* Adjust height to leave space at the top and bottom */
+    display: flex;
+    align-items: center; /* Center content vertically within the adjusted height */
+    justify-content: center;
   }
 }
