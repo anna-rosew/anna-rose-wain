@@ -34,7 +34,12 @@ export default function Header() {
           >
             WORK
           </Link>
-          <div className="menu-link contact-link">CONTACT</div>
+          <a
+            href="mailto:annarosewain9@gmail.com"
+            className="menu-link contact-link"
+          >
+            <div className="link-text">CONTACT</div>
+          </a>
         </span>
       </div>
     </div>
