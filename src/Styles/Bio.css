@@ -1,3 +1,54 @@
+.bio-container {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.bio {
+  width: 70%;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  display: block;
+  z-index: 1;
+}
+
+.line {
+  display: flex;
+  flex-wrap: nowrap; /* Prevents content from wrapping to a new line */
+  align-items: center; /* Aligns text and images vertically */
+  margin-bottom: 10px; /* Adds space between lines */
+  white-space: nowrap; /* Prevents text from breaking onto new lines */
+}
+
+.line span {
+  display: inline-flex; /* Ensures span content stays inline */
+  align-items: center;
+  margin-right: 10px; /* Adds space between spans */
+}
+
+.line img {
+  height: 30px; /* Adjust image size */
+  margin-left: 5px; /* Adds space between text and image */
+}
+
+.invert {
+  filter: invert(1); /* Invert colors for specific images */
+}
+
+.underline {
+  text-decoration: underline; /* Underline text style */
+}
+
+.italics {
+  font-style: italic; /* Italicize text */
+}
+
+.bold {
+  font-weight: 700; /* Bold text */
+}
+
+/* Contact Button Styling */
 button.contact {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
@@ -16,85 +67,17 @@ button.contact {
 
 .contact a {
   color: pink;
-  text-decoration: none;
+  text-decoration: none; /* Remove underline from the contact link */
 }
 
-strong {
-  font-weight: 700;
-}
-
-.bio-container {
-  background-color: black;
-  color: white;
-  padding: 30px;
-}
-
-.bio {
-  width: 70%;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 36px;
-  display: block;
-
-  z-index: 1;
-}
-
-.line {
-  display: flex;
-}
-
-.line img {
-  height: 50px;
-  margin-right: 10px;
-}
-
-.invert {
-  filter: invert(1);
-}
-
-div {
-  display: block;
-  text-align: start;
-  position: relative;
-  translate: none;
-  rotate: none;
-  scale: none;
-  transform: translate(0px, 0px);
-}
-
-.line span {
-  display: flex;
-  align-items: center;
-}
-
-.left-align {
-  text-align: left;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.italics {
-  font-style: italic;
-}
-
+/* Responsive Styling */
 @media (max-width: 960px) {
-  .hero {
-    padding-bottom: 10px;
-  }
-
   .bio {
     font-size: 20px;
-  }
-}
-
-@media (max-width: 960px) {
-  .hero {
-    padding-bottom: 10px;
+    width: 100%; /* Adjust font size for smaller screens */
   }
 
-  .bio {
-    font-size: 20px;
+  .line img {
+    height: 20px; /* Reduce image size for smaller screens */
   }
 }
