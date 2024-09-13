@@ -45,12 +45,13 @@ const WorkSection = () => {
     },
 
     {
-      title: "Rose Long: Yoga and Coaching",
-      subtitle: "Coming Soon.",
+      title: "Rose Long: Return to the Source",
+      subtitle: "Yoga and Life Coaching Website.",
       className: "project-4",
-      altText: "Rose Long: Yoga and Coaching",
+      altText: "Rose Long: Return to the Source",
       tags: ["eCommerce", "Branding", "Data Management/CMS", "SEO"],
-      date: "Sep 2023",
+      liveLink: "https://www.rose-long.com/",
+      date: "Sep 2023 - Present",
       image: require("../imgs/rose-long.png"),
       hoverImage: require("../imgs/rose-long2.png"),
     },
