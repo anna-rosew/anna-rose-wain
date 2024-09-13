@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap");
+
+/* Keyframes for marquee scroll animation */
 @keyframes scroll {
   from {
     transform: translateX(0);
@@ -7,16 +9,17 @@
     transform: translateX(calc(-100% - var(--gap)));
   }
 }
+
 .App {
   margin: 0 auto;
 }
 
 main {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
-container {
+.container {
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -25,23 +28,27 @@ container {
   margin-left: 20px;
 }
 
-a :hover {
+a:hover {
   text-decoration: underline;
 }
 
-h1 {
+/* Headings */
+h1,
+h2,
+h4 {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-  font-size: 30px;
   font-style: normal;
   margin-left: 20px;
+}
+
+h1 {
+  font-size: 30px;
   margin-bottom: 1px;
 }
 
-h2 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+h2,
+h4 {
   font-size: 12px;
   opacity: 80%;
   margin-bottom: 2.5px;
@@ -49,12 +56,6 @@ h2 {
 
 h4 {
   padding: 5px;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  opacity: 80%;
-  margin-bottom: 2.5px;
 }
 
 p {
@@ -64,27 +65,18 @@ p {
   font-style: normal;
 }
 
-br {
-  margin: 1em;
-}
-
+/* Marquee styles */
 .marquee {
   --gap: 1rem;
-  position: relative;
   display: flex;
   overflow: hidden;
-  user-select: none;
   gap: var(--gap);
+  background: #e8daef;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-.marquee {
-  background: #e8daef;
-}
-
 .marquee__content {
-  flex-shrink: 0;
   display: flex;
   justify-content: space-around;
   height: 50px;
@@ -126,6 +118,7 @@ br {
   object-fit: contain;
 }
 
+/* Animation for marquee */
 .enable-animation .marquee__content {
   animation: scroll 50s linear infinite;
 }
