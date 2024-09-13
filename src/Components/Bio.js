@@ -8,7 +8,6 @@ import lightning from "../imgs/icons/lightning.svg";
 import internet from "../imgs/icons/internet.svg";
 import paint from "../imgs/icons/paint.svg";
 import stars from "../imgs/icons/star.svg";
-import stars from "../imgs/icons/star.svg";
 
 export default function Bio() {
   return (
@@ -54,12 +53,6 @@ export default function Bio() {
         <span className="line">
           <div>
             <span>Inclusivity and sustainablity </span>
-            <span className="show-gif-on-hover">
-              <img
-                src={flower}
-                alt="Smiling flower icon with petals spinning."
-              />
-            </span>
             <span>web developer</span>
             <span className="show-gif-on-hover">
               <img src={internet} alt="Lightning icon wiggling." />
