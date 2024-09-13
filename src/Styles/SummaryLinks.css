@@ -1,22 +1,24 @@
+/* ========== Container Summary Styling ========== */
 .containerSummary {
   max-width: 1400px;
   margin: 0 auto;
   background-color: black;
 }
 
+/* ========== Summary Link Styling ========== */
 a.summary {
   font-family: "komet", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 14px;
   text-decoration: underline;
+  color: white; /* Default color for the link */
 }
 
 a.summary:visited {
-  color: white;
-  text-decoration: underline;
+  color: white; /* Visited link color */
 }
 
+/* ========== Summary Links Styling ========== */
 .summary-links {
   padding: 10px;
   color: white;
@@ -25,12 +27,12 @@ a.summary:visited {
 .summary-links h2 {
   color: white;
   font-weight: 400;
-  font-style: normal;
   font-size: 12px;
   opacity: 80%;
   margin-bottom: 2.5px;
 }
 
+/* ========== Responsive Styling ========== */
 @media (max-width: 960px) {
   .summary-links {
     padding: 5px;

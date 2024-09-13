@@ -1,22 +1,24 @@
-/* style.css */
-
+/* ========== General Styles ========== */
 .container .custom-padding {
-  padding: 20px; /* Adjust padding as needed */
+  padding: 20px;
 }
 
 .custom-gap {
   margin: 5px;
 }
 
+/* ========== Work Section ========== */
 .work-section {
   margin: 10px;
 }
 
+/* ========== Blurry Image Styling ========== */
 .blurry-image {
-  filter: blur(8px); /* Adjust blur strength as needed */
-  transition: filter 0.3s ease-out; /* Smooth transition when removing blur */
+  filter: blur(8px);
+  transition: filter 0.3s ease-out;
 }
 
+/* ========== Work Example Card Styling ========== */
 .work-example-card {
   background-repeat: none;
   background-size: cover;
@@ -26,9 +28,13 @@
   border-radius: 23px;
   transition: background-color 0.5s ease, transform 1s ease;
 }
+
 .custom-gap.work-example-card {
-  background-image: url("../imgs/blender-rookie.png");
   transition: background-image 0.3s ease;
+}
+
+.custom-gap.work-example-card.project-1 {
+  background-image: url("../imgs/blender-rookie.png");
 }
 
 .custom-gap.work-example-card.project-1:hover {
@@ -67,9 +73,9 @@
   background-image: url("../imgs/world-clock2.png");
 }
 
-/* Add class for two projects per row */
+/* ========== Project Layout and Caption Styling ========== */
 .two-projects-per-row {
-  width: calc(50% - 10px); /* Set width to 50% minus gutter */
+  width: calc(50% - 10px);
 }
 
 .project-caption {
@@ -79,15 +85,12 @@
 
 .project-caption h2 {
   font-size: 20px;
-  text-decoration: none;
   margin-top: 5px;
 }
 
 .project-caption h3 {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-  font-style: normal;
-
   font-size: 26px;
   margin: 0;
   text-align: left;
@@ -95,10 +98,10 @@
 
 .project-caption a {
   color: black;
+  text-decoration: none;
 }
 
 .project-caption a:hover {
-  color: black;
   text-decoration: underline;
 }
 
@@ -116,10 +119,9 @@
 .project-caption button {
   font-family: "komet", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 12px;
   border: 1px solid black;
-  margin: 5px 5px;
+  margin: 5px;
   border-radius: 23px;
   padding: 5px 10px;
   text-align: left;
@@ -136,6 +138,7 @@ button.github-link {
   border: 1px dashed black;
 }
 
+/* ========== Responsive Styling ========== */
 @media (max-width: 960px) {
   .work-example-card {
     height: 200px;
@@ -143,17 +146,11 @@ button.github-link {
 
   .project-caption {
     margin-left: 20px;
-    margin-bottom: 30px;
   }
 
   .project-caption h3 {
     font-size: 20pt;
   }
-}
-
-/* Additional CSS for two cards per row */
-.row [class^="col-"] {
-  padding: 0 5px; /* Adjust gutter as needed */
 }
 
 @media (min-width: 768px) {
@@ -164,9 +161,8 @@ button.github-link {
     margin-left: -5px;
   }
 
-  /* Adjust width for two projects per row */
   .row .col-md-6 {
-    width: calc(50% - 10px); /* Set width to 50% minus gutter */
+    width: calc(50% - 10px);
     margin-bottom: 10px;
   }
 }
