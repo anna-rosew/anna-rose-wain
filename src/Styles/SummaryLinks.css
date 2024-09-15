@@ -3,6 +3,7 @@
   max-width: 1400px;
   margin: 0 auto;
   background-color: black;
+  text-align: left;
 }
 
 /* ========== Summary Link Styling ========== */
@@ -29,7 +30,7 @@ a.summary:visited {
   font-weight: 400;
   font-size: 12px;
   opacity: 80%;
-  margin-bottom: 2.5px;
+  margin: 0px 0px 0px 0px;
 }
 
 /* ========== Responsive Styling ========== */

@@ -5,7 +5,7 @@ import "../Styles/SummaryLinks.css";
 export default function SummaryLinks() {
   return (
     <div className="containerSummary">
-      <div className="row justify-content-start left-align">
+      <div className="row justify-content-start">
         <div className="col-sm-6 col-md">
           <div className="summary-links">
             <h2>Get in touch</h2>
