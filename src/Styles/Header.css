@@ -45,6 +45,10 @@
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .work-link:hover::after {
   width: 60%;
 }

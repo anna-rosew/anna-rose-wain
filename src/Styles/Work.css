@@ -138,6 +138,10 @@ button.github-link {
   border: 1px dashed black;
 }
 
+button.github-link:hover {
+  cursor: pointer;
+}
+
 /* ========== Responsive Styling ========== */
 @media (max-width: 960px) {
   .work-example-card {
