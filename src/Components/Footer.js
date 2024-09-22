@@ -9,7 +9,7 @@ export default function Footer() {
         <h4>
           This site was coded by <strong>Anna-Rose Wain</strong> and is{" "}
           <a
-            href="https://github.com/anna-rosew/annarosewain_portfolio"
+            href="https://github.com/anna-rosew/anna-rose-wain"
             target="_blank"
             rel="noopener noreferrer"
             alt="Portfolio Repo"
