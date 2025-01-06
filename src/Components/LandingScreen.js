@@ -79,20 +79,6 @@ export default function LandingScreen() {
               </a>
             </div>
           </div>
-          <div className="col-sm-6 col-md">
-            <div className="summary-links">
-              <h2>CV</h2>
-              <a
-                className="summary"
-                href="https://www.dropbox.com/scl/fi/4zxhf8sii29vgpqh33at7/Anna-Rose-Wain-s-CV-2024.pdf?rlkey=bes7qa9wphqf8do7cbb4klf0n&st=30qiwgwj&dl=0"
-                target="_blank"
-                rel="noreferrer"
-                alt="Link to CV"
-              >
-                View Online
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>

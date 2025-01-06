@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/App.css";
 import "../Styles/Bio.css";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 import ContactButton from "../Components/ContactButton";
 
@@ -41,6 +42,7 @@ const Bio = () => {
               <span className="bold">web developer</span>
               <span className="show-gif-on-hover">
                 <img src={internet} alt="Internet icon." />
+                <DotLottieReact src="path/to/animation.lottie" loop autoplay />
               </span>
             </span>
             <span className="line">
