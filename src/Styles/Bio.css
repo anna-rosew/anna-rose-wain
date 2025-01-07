@@ -35,6 +35,10 @@
   margin-left: 5px;
 }
 
+.larger-icon img {
+  height: 45px;
+}
+
 /* ========== Text Style Variations ========== */
 .invert {
   filter: invert(1);

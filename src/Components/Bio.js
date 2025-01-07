@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/App.css";
 import "../Styles/Bio.css";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 import ContactButton from "../Components/ContactButton";
 
 import lightning from "../imgs/icons/lightning.svg";
-import internet from "../imgs/icons/internet.svg";
 import paint from "../imgs/icons/paint.svg";
 import stars from "../imgs/icons/star.svg";
 import flower from "../imgs/icons/flower.svg";
@@ -14,6 +12,7 @@ import code from "../imgs/icons/code.svg";
 import www from "../imgs/icons/www.svg";
 import plane from "../imgs/icons/airplane.svg";
 import wave from "../imgs/icons/wave.svg";
+import mouse from "../imgs/icons/mouse.svg";
 
 const Bio = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -41,8 +40,7 @@ const Bio = () => {
             <span className="line">
               <span className="bold">web developer</span>
               <span className="show-gif-on-hover">
-                <img src={internet} alt="Internet icon." />
-                <DotLottieReact src="path/to/animation.lottie" loop autoplay />
+                <img src={www} alt="Globe vector with www." />
               </span>
             </span>
             <span className="line">
@@ -102,7 +100,7 @@ const Bio = () => {
             <span className="line">
               <span>I love chatting about code, </span>
               <span className="show-gif-on-hover">
-                <img src={www} alt="Globe vector with www." />
+                <img src={mouse} alt="Computer mouse cursor." />
               </span>
             </span>
             <span className="line">
@@ -138,7 +136,7 @@ const Bio = () => {
               </span>
               <span className="bold">web developer</span>
               <span className="show-gif-on-hover">
-                <img src={internet} alt="Internet icon." />
+                <img src={www} alt="Globe vector with www." />
               </span>
               <span>who specialises in creating</span>
             </span>
@@ -182,8 +180,8 @@ const Bio = () => {
           <p className="bio">
             <span className="line">
               <span>I love chatting about code </span>
-              <span className="show-gif-on-hover">
-                <img src={www} alt="Globe vector with www." />
+              <span className="show-gif-on-hover larger-icon">
+                <img src={mouse} alt="Computer mouse cursor." />
               </span>
               <span>, design and all things collaboration so </span>
               <span className="show-gif-on-hover">
