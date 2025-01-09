@@ -19,6 +19,7 @@ const WorkSection = () => {
         "Data Management/MySQL",
         "SEO",
       ],
+      repoLink: "https://github.com/anna-rosew/return-to-source",
       liveLink: "https://www.rose-long.com/",
       date: "Sep 2023 - Present",
       image: require("../imgs/rose-long.png"),
