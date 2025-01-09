@@ -6,6 +6,25 @@ import ProjectCard from "../Components/ProjectCard";
 const WorkSection = () => {
   const projects = [
     {
+      title: "Rose Long: Return to the Source",
+      subtitle: "Yoga and Life Coaching Website.",
+      className: "project-4",
+      altText: "Rose Long: Return to the Source",
+      tags: [
+        "eCommerce",
+        "Next JS",
+        "Tailwind CSS",
+        "AWS",
+        "Branding",
+        "Data Management/MySQL",
+        "SEO",
+      ],
+      liveLink: "https://www.rose-long.com/",
+      date: "Sep 2023 - Present",
+      image: require("../imgs/rose-long.png"),
+      hoverImage: require("../imgs/rose-long2.png"),
+    },
+    {
       title: "Blender Rookie",
       subtitle: "Complete Guide to Learning Blender",
       className: "project-1",
@@ -42,18 +61,6 @@ const WorkSection = () => {
       date: "May 2024",
       image: require("../imgs/weather-app.png"),
       hoverImage: require("../imgs/weather-app2.png"),
-    },
-
-    {
-      title: "Rose Long: Return to the Source",
-      subtitle: "Yoga and Life Coaching Website.",
-      className: "project-4",
-      altText: "Rose Long: Return to the Source",
-      tags: ["eCommerce", "Branding", "Data Management/CMS", "SEO"],
-      liveLink: "https://www.rose-long.com/",
-      date: "Sep 2023 - Present",
-      image: require("../imgs/rose-long.png"),
-      hoverImage: require("../imgs/rose-long2.png"),
     },
     {
       title: "World Clock App",
