@@ -20,7 +20,7 @@ const WorkSection = () => {
         "SEO",
       ],
       repoLink: "https://github.com/anna-rosew/return-to-source",
-      liveLink: "https://www.rose-long.com/",
+      liveLink: "https://return-to-source-sigma.vercel.app/",
       date: "Sep 2023 - Present",
       image: require("../imgs/rose-long.png"),
       hoverImage: require("../imgs/rose-long2.png"),
