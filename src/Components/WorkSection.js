@@ -7,7 +7,7 @@ const WorkSection = () => {
   const projects = [
     {
       title: "Rose Long: Return to the Source",
-      subtitle: "Yoga and Life Coaching Website.",
+      subtitle: "Yoga and Life Coaching e-Commerce Website.",
       className: "project-4",
       altText: "Rose Long: Return to the Source",
       tags: [
@@ -16,8 +16,9 @@ const WorkSection = () => {
         "Tailwind CSS",
         "AWS",
         "Branding",
-        "Data Management/MySQL",
+        "MySQL",
         "SEO",
+        "NextAuth",
       ],
       repoLink: "https://github.com/anna-rosew/return-to-source",
       liveLink: "https://return-to-source-sigma.vercel.app/",
